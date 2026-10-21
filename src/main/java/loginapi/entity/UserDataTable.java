@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="Preethu Info")
+@Table(name="USER_INFORMATION")
 public class UserDataTable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
